@@ -38,11 +38,4 @@ class WorkerController extends Controller
 
         return view('leaders', compact('workers'));
     }
-
-//    public function test()
-//    {
-//        $worker = Worker::where('id', '=', 25)->with('dismissalReason')->get();
-//
-//        dd($worker);
-//    }
 }

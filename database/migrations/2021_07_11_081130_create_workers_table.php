@@ -21,7 +21,6 @@ class CreateWorkersTable extends Migration
 
             $table->foreignId('leader_id')->nullable(); // id руководителя
             $table->string('position_id'); // должность
-//            $table->decimal('salary')->nullable(); // размер зп
             $table->string('employment_date')->nullable(); // дата приема на работу
             $table->string('dismissal_date')->nullable(); // дата увольнения
             $table->string('dismissal_reason_id')->nullable(); // причина увольнения
